@@ -1,4 +1,6 @@
-import javax.util.*;
+import java.awt.print.Printable;
+
+import javax.swing.JOptionPane;
 
 public class for_loop_gauntlet{
 	public static void main(String[] args) {
@@ -36,6 +38,16 @@ public class for_loop_gauntlet{
 				h=t-2000;
 				System.out.println("In "+ t +", i was "+ h +" years old.");
 					
+			}
+			for(int i=0; i<3; i++){
+				for(int q=0; q<3; q++){
+					System.out.println(i+""+q);
+				}
+			}
+		
+ String num=JOptionPane.showInputDialog("what is your favorite number?");
+			   	 for(int num=0; num<1000; num++){
+			   		 System.out.println(num);
 			}
 			
 		}
